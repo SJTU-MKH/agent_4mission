@@ -1,0 +1,26 @@
+<annotation>
+	<folder>unlabeled</folder>
+	<filename>6926dbece887ec9451dd7497887ad70.jpg</filename>
+	<path>/home/khm/project/agent_4mission/data/mission/graph/unlabeled/6926dbece887ec9451dd7497887ad70.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>graph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>89</ymin>
+			<xmax>376</xmax>
+			<ymax>252</ymax>
+		</bndbox>
+	</object>
+</annotation>
