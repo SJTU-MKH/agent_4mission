@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import utils.dataMake.geometry as dmg
 import utils.dataMake.labelWrite as lw
 import glob
@@ -6,7 +8,7 @@ import cv2
 import random
 import numpy as np
 
-def add_graph(img_path):
+def add_graph(img_path,add_img_path):
     bboxs = []
     colors_name = list(dmg.color.keys())
     img = cv2.imread(img_path)
@@ -33,7 +35,7 @@ def add_graph(img_path):
             # print(center)
             rotation = random.random()
             if graph_index == 0:
-                graph_obj = "circle"
+                graph_obj = 0  # "circle"
                 R = int((0.5+random.random()/2)*step_w/2)
                 cv2.circle(img, center, R, color, -1)
                 xmin = center[0]-R
@@ -41,21 +43,21 @@ def add_graph(img_path):
                 ymin = center[1]-R
                 ymax = center[1]+R
             elif graph_index == 1:
-                graph_obj = "rhombus"
+                graph_obj = 1  # "rhombus"
                 w = (0.5+random.random()/2)*step_w/2
                 h = (0.5+random.random()/2)*step_h/2
                 vertexs = dmg.compute_rhombus(center, w, h, rotation)
             elif graph_index == 2:
-                graph_obj = "fivestar"
+                graph_obj = 2  # "fivestar"
                 R = (0.5+random.random()/2)*step_w/2
                 vertexs = dmg.compute_fivestar(center, R, rotation)
             elif graph_index == 3:
-                graph_obj = "triangle"
+                graph_obj = 3  # "triangle"
                 w = (0.5+random.random()/2)*step_w/2
                 h = (0.5+random.random()/2)*step_h/2
                 vertexs = dmg.compute_triangle(center, w, h, rotation)
             elif graph_index == 4:
-                graph_obj = "rectangle"
+                graph_obj = 4  # "rectangle"
                 w = (0.5+random.random()/2)*step_w/2
                 h = (0.5+random.random()/2)*step_h/2
                 vertexs = dmg.compute_rectangle(center, w, h, rotation)
@@ -79,10 +81,31 @@ def add_graph(img_path):
             bboxs.append(box)
     # 边缘模糊
     dst = cv2.blur(img, (5, 5))
+    # gamma
+    # gamma = random.uniform(0.2,2)
+    # dst = gamma_transform(dst,1)
     # cv2.imshow("poyline", dst)
     # cv2.waitKey(0)
-    return dst, bboxs
 
+    # 图像混叠
+    add_img = cv2.imread(add_img_path)
+    add_img = cv2.resize(add_img, (img_w, img_h))
+    rst = cv2.addWeighted(dst, 0.6, add_img, 0.4, 0)
+    if random.random()>0.7:
+        blank = 255 * np.ones(rst.shape, rst.dtype)
+        rst = cv2.addWeighted(rst, 0.7, blank, 1-0.7, 0)
+    return rst, bboxs
+
+
+def gamma_transform(image, gamma=1.6):
+
+    max_value = np.max(image)
+    min_value = np.min(image)
+    value_l = max_value - min_value
+    image = (image - min_value)/value_l
+    image = np.power(image, gamma)
+    image = image * 255
+    return image.astype(np.uint8)
 
 
 save_path = "mission/graph/labeled/"
@@ -97,12 +120,16 @@ save_path = "./mission/graph/labeled/"
 index = glob.glob("./mission/graph/labeled/pic/*")
 num = len(index)
 # f_txt = open("mission_graph.txt", "w")
+
+import random
+shuffle_pic_paths = pic_paths.copy()
+random.shuffle(shuffle_pic_paths)
 for i in range(len(pic_paths)):
-    img, bboxes = add_graph(pic_paths[i])
+    img, bboxes = add_graph(pic_paths[i],shuffle_pic_paths[i])
     img_save_path = save_path+"pic/"+str(i+num)+".jpg"
     txt_save_path = img_save_path.replace(".jpg", ".txt").replace("pic", "annotation")
     cv2.imwrite(img_save_path, img)
     f_txt = open(txt_save_path, "w")
     for bbox in bboxes:
-        f_txt.write(bbox["cls"]+" "+" ".join([str(x) for x in bbox["xywh"]])+"\n")
+        f_txt.write(str(bbox["cls"])+" "+" ".join([str(x) for x in bbox["xywh"]])+"\n")
     f_txt.close()
