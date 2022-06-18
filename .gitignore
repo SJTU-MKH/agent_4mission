@@ -1,1 +1,5 @@
 plate/
+traffic_sign/
+all/
+.DS_Store
+*.zip

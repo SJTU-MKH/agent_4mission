@@ -27,20 +27,20 @@ for cls in clss:
         pic_path = "/Users/liujiyao/Documents/安卓识别项目@马可汇/plate_number_detect/unlabeled_graph/green"
     save_path = "mission/plate"
 
-    if not os.path.exists(save_path + "/images"):
-        os.makedirs(save_path + "/images")
-    if not os.path.exists(save_path + "/labels"):
-        os.makedirs(save_path + "/labels")
+    if not os.path.exists(save_path + "/pic"):
+        os.makedirs(save_path + "/pic")
+    if not os.path.exists(save_path + "/annotation"):
+        os.makedirs(save_path + "/annotation")
 
     pic_paths = glob.glob(os.path.join(pic_path,'*'))
     print(len(pic_paths))
-    index = glob.glob(os.path.join(save_path,'images/*'))
+    index = glob.glob(os.path.join(save_path,'pic/*'))
     num = len(index)
 
     for i in range(len(pic_paths)):
         img, bbox = generate_label(pic_paths[i],cls)
-        img_save_path = save_path+"/images/"+str(i+num)+".jpg"
-        txt_save_path = img_save_path.replace(".jpg", ".txt").replace("images", "labels")
+        img_save_path = save_path+"/pic/"+str(i+num)+".jpg"
+        txt_save_path = img_save_path.replace(".jpg", ".txt").replace("pic", "annotation")
         cv2.imwrite(img_save_path, img)
         f_txt = open(txt_save_path, "w")
         f_txt.write(str(bbox["cls"])+" "+" ".join([str(x) for x in bbox["xywh"]])+"\n")
