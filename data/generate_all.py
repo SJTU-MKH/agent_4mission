@@ -32,9 +32,9 @@ if not os.path.exists(os.path.join(root, "all",'labels')):
 
 # 1. 交通标志 clss: 0, 1, 2, 3, 4, 5
 pic_path = os.path.join(root, "traffic_sign",'labeled/pic')
-pic_paths = glob.glob(os.path.join(pic_path,'*'))
+pic_paths = sorted(glob.glob(os.path.join(pic_path,'*')))
 annotation_path = os.path.join(root, "traffic_sign",'labeled/annotation')
-annotation_paths = glob.glob(os.path.join(annotation_path,'*'))
+annotation_paths = sorted(glob.glob(os.path.join(annotation_path,'*')))
 print(len(pic_paths))
 index = glob.glob(os.path.join(save_path,'images/*'))
 num = len(index)
@@ -66,13 +66,15 @@ for i in range(len(pic_paths)):
 
 # 3. 车牌 clss: 7,8
 pic_path = os.path.join(root, "plate",'labeled/pic')
-pic_paths = glob.glob(os.path.join(pic_path,'*'))
-random.shuffle(pic_paths)
+pic_paths = sorted(glob.glob(os.path.join(pic_path,'*')))
+# random.seed(2022)
+# random.shuffle(pic_paths)
 annotation_path = os.path.join(root, "plate",'labeled/annotation')
-annotation_paths = glob.glob(os.path.join(annotation_path,'*'))
-random.shuffle(annotation_paths)
-print(len(pic_paths[:220]))
-index = glob.glob(os.path.join(save_path,'images/*'))
+annotation_paths = sorted(glob.glob(os.path.join(annotation_path,'*')))
+# random.seed(2022)
+# random.shuffle(annotation_paths)
+print(len(pic_paths[:300]))
+index = sorted(glob.glob(os.path.join(save_path,'images/*')))
 num = len(index)
 
 for i in range(len(pic_paths[:220])):
