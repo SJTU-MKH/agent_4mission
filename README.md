@@ -8,7 +8,7 @@
 - 绿车牌
 - 二维码
 
-## 数据生成
+## 数据获取与生成
 ### 小图形块生成(data/graph)
 > circle rectangle triangle fivestar rhombus菱形
 - 收集背景图放入　"data/background_graph"
@@ -17,6 +17,11 @@
 
 ### qrcode与biggraph(带显示器)
 - 对Qrcode和biggraph都增广:aug.py
+
+### 车牌
+车牌识别数据来源CCPD数据集：
++ (蓝色车牌)，CCPD2020数据集车牌类型仅有新能源车牌(绿色车牌)。
++ 地址：https://github.com/detectRecog/CCPD
 
 
 ## 任务方案
