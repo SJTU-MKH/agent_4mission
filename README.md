@@ -36,7 +36,7 @@
 > 颜色:color = {"RED": [0, 0, 255], "GREEN": [0, 255, 0], "BLUE": [255, 0, 0], "YELLOW": [0, 255, 255],
          "PIN": [255, 0, 255], "QING": [255, 255, 0], "BLACK": [0, 0, 0], "WHITE": [255, 255, 255]}
 - 传统： Hu 矩: cv2.matchShape()
-- 网络直接检测后提取颜色
+- 网络直接检测后提取颜色，代码位置：[color_recognize.py](https://github.com/huihui500/agent_4mission/blob/main/submission/color_recognize.py)
 
 #### 车牌识别
 
