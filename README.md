@@ -3,7 +3,6 @@
 ## 设置
 
 1. 模型选择：yolov5s
-2. 图像resize大小为320.
 
 
 ## result
