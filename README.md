@@ -13,9 +13,9 @@
 
 3. 权重文件的位置
 
-主任务：模型权重 https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/main_mission/weights
+主任务：模型权重 [yolov5/runs/train/main_mission/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/main_mission/weights)
 
-色块检测：模型权重 https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/realgraph-320/weights
+色块检测：模型权重 [yolov5/runs/train/realgraph-320/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/realgraph-320/weights)
 
 ## inference demo
 
@@ -26,3 +26,7 @@
 ```bash
 python detect.py --weight '权重路径' --source '图片/图片文件夹/视频路径' --save-txt --save-conf --img-size 320
 ```
+
+# 颜色识别
+
+需要根据实际使用情况调整颜色阈值范围，代码：[submission/color_recognize.py]()
