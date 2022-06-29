@@ -29,4 +29,4 @@ python detect.py --weight '权重路径' --source '图片/图片文件夹/视频
 
 # 颜色识别
 
-需要根据实际使用情况调整颜色阈值范围，代码：[submission/color_recognize.py]()
+需要根据实际使用情况调整颜色阈值范围，代码：[submission/color_recognize.py](https://github.com/huihui500/agent_4mission/blob/liujy/submission/color_recognize.py)
