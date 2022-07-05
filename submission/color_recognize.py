@@ -58,16 +58,16 @@ def equalize_hist_color(img):
 def DrawBox(im, box):
     # 绘制Bounding Box
     draw = ImageDraw.Draw(im)
-    draw.rectangle(box,  outline="#FFFFFF", width=3)
+    draw.rectangle(box,  outline="#FFFFFF", width=1)
 
 
 def DrawLabel(im, loc, label, color):
     # 绘制label
     draw = ImageDraw.Draw(im)
     # draw.multiline_text((30,30), label.encode("utf-8"), fill="#FFFFFF")
-    font = ImageFont.truetype('/System/Library/Fonts/Times.ttc', 16)
-    draw.text(loc, color, font=font)
- 
+    # font = ImageFont.truetype('/System/Library/Fonts/Times.ttc', 16)
+    # draw.text(loc, color, font=font)
+    draw.text(loc, color)
 
 def ImgShow(imgpath, boxs, cs, label="n"):
     # 展示图片
@@ -76,17 +76,31 @@ def ImgShow(imgpath, boxs, cs, label="n"):
         DrawBox(im, [tuple(boxs[i][0:2]),tuple(boxs[i][2:])])
         DrawLabel(im, boxs[i][0:2], label, cs[i])
     # 显示图片
-    im.show()
-    im.save('result_color.jpg')
+    # im.show()
+    im.save('/home3/HWGroup/liujy/agent_4mission_detection/submission/result_color.jpg')
 
 
 color = ["red1", "yellow", "green", "qing", "blue", "pin", "red", 'black', 'white' ]
+# color_range = {
+#     "red1": {"color_lower": np.array([0, 35, 46]), "color_upper": np.array([15, 255, 255])},
+#     "yellow": {"color_lower": np.array([15, 35, 46]), "color_upper": np.array([34, 255, 255])},
+#     "green": {"color_lower": np.array([35, 35, 46]), "color_upper": np.array([77, 255, 255])},
+#     "qing": {"color_lower": np.array([78, 35, 46]), "color_upper": np.array([99, 255, 255])},
+#     "blue": {"color_lower": np.array([100, 35, 46]), "color_upper": np.array([124, 255, 255])},
+#     "pin": {"color_lower": np.array([125, 35, 46]), "color_upper": np.array([155, 255, 255])},
+#     "red": {"color_lower": np.array([156, 35, 46]), "color_upper": np.array([180, 255, 255])},
+#     'black': {"color_lower": np.array([0, 0, 0]), "color_upper": np.array([180, 255, 35])},
+#     'white': {"color_lower": np.array([0, 0, 221]), "color_upper": np.array([180, 30, 255])},
+#          }
+
+
+# 根据实际情况修正
 color_range = {
     "red1": {"color_lower": np.array([0, 35, 46]), "color_upper": np.array([15, 255, 255])},
-    "yellow": {"color_lower": np.array([15, 35, 46]), "color_upper": np.array([34, 255, 255])},
-    "green": {"color_lower": np.array([35, 35, 46]), "color_upper": np.array([77, 255, 255])},
-    "qing": {"color_lower": np.array([78, 35, 46]), "color_upper": np.array([99, 255, 255])},
-    "blue": {"color_lower": np.array([100, 35, 46]), "color_upper": np.array([124, 255, 255])},
+    "yellow": {"color_lower": np.array([15, 35, 46]), "color_upper": np.array([47, 255, 255])},
+    "green": {"color_lower": np.array([48, 35, 46]), "color_upper": np.array([77, 255, 255])},
+    "qing": {"color_lower": np.array([78, 35, 46]), "color_upper": np.array([88, 255, 255])},
+    "blue": {"color_lower": np.array([89, 35, 46]), "color_upper": np.array([124, 255, 255])},
     "pin": {"color_lower": np.array([125, 35, 46]), "color_upper": np.array([155, 255, 255])},
     "red": {"color_lower": np.array([156, 35, 46]), "color_upper": np.array([180, 255, 255])},
     'black': {"color_lower": np.array([0, 0, 0]), "color_upper": np.array([180, 255, 35])},
@@ -154,8 +168,8 @@ def main(img_path, label_path):
     ImgShow(img_path, boxs, cs)
     
 
-# img_path = '/Users/liujiyao/Documents/安卓识别项目@马可汇/agent_4mission/submission/1.jpg'
-# label_path = '/Users/liujiyao/Documents/安卓识别项目@马可汇/agent_4mission/submission/1.txt'
-img_path = '/Users/liujiyao/Documents/安卓识别项目@马可汇/agent_4mission/data/mission/realgraph/labeled/images/6eaf7db3e02fee0933668638120e8b8_jpg.rf.d588eef655b6617c4205615a4fab8633.jpg'
-label_path = '/Users/liujiyao/Documents/安卓识别项目@马可汇/agent_4mission/data/mission/realgraph/labeled/labels/6eaf7db3e02fee0933668638120e8b8_jpg.rf.d588eef655b6617c4205615a4fab8633.txt'
+img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.jpg'
+label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.txt'
+# img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.jpg'
+# label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.txt'
 main(img_path, label_path)

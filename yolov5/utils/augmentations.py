@@ -169,6 +169,21 @@ def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleF
     return im, ratio, (dw, dh)
 
 
+# def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleFill=False, scaleup=True, stride=32):
+#     # Resize and pad image while meeting stride-multiple constraints
+#     shape = im.shape[:2]  # current shape [height, width]
+#     if isinstance(new_shape, int):
+#         new_shape = (new_shape, new_shape)
+#     print(im.shape)
+#     print(new_shape)
+#     im = cv2.resize(im, new_shape, interpolation=cv2.INTER_LINEAR)
+
+#     return im, 100, (0, 0)
+
+
+
+
+
 def random_perspective(im,
                        targets=(),
                        segments=(),
