@@ -168,8 +168,8 @@ def main(img_path, label_path):
     ImgShow(img_path, boxs, cs)
     
 
-img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.jpg'
-label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.txt'
-# img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.jpg'
-# label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.txt'
+# img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.jpg'
+# label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/test.txt'
+img_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.jpg'
+label_path = '/home3/HWGroup/liujy/agent_4mission_detection/submission/bigshape.txt'
 main(img_path, label_path)
