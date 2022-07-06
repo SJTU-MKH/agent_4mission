@@ -53,41 +53,6 @@ model.load_state_dict(torch.load('/home3/HWGroup/liujy/agent_4mission_detection/
 model = model.to(device)
 model.eval()
 
-class MyDataset(torch.utils.data.Dataset):
-    def __init__(self,file_path,transform=None):
-        super(MyDataset,self).__init__()
-        #依次处理数据
-        imgs = []
-        imglb = []
-        classes = list(range(8))
-        for i in classes:
-            img_names = os.listdir(os.path.join(file_path,str(i)))
-            for j in range(len(img_names)):
-                path = os.path.join(file_path, str(i), img_names[j])
-                label = i
-
-                #读对应路径的图像，存为img，依次存入imgs
-                img = Image.open(path).convert('RGB')
-                imgs.append(img)
-                #读对应图像的标签，依次存入imglb  
-                imglb.append(int(label))
-        self.image = imgs
-        self.imglb = imglb
-        self.root = file_path
-        self.size = len(imgs)
-        self.transform = transform
-        
-    def __getitem__(self,index):
-        img = self.image[index]
-        label = self.imglb[index]
-        sample = {'image': img,'classes':label}
-        if self.transform:
-            sample['image'] = self.transform(img)
-        return sample
-        
-    def __len__(self):
-        return self.size
-
 
 def crop(img,xyxy):
     x1, y1 ,x2, y2 = map(int,xyxy)
