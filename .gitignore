@@ -5,3 +5,4 @@ graph*/
 all/
 yolov5/runs/detect/
 realgraph2.0/
+/resnet18/classification-pytorch
