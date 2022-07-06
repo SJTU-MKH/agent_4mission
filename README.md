@@ -30,7 +30,7 @@ python detect.py --weight '权重路径' --source '图片/图片文件夹/视频
 # 颜色识别
 
 更新使用resnet18实现颜色分类：0-red,1-green,2-blue,3-yellow,4-pin,5-qing,6-black,7-white.
-
+---
 需要根据实际使用情况调整颜色阈值范围，代码：[submission/color_recognize.py](https://github.com/huihui500/agent_4mission/blob/liujy/submission/color_recognize.py)
 
 测试代码：[查看图像形状检测框坐标](https://github.com/huihui500/agent_4mission/blob/liujy/yolov5/location.ipynb)
