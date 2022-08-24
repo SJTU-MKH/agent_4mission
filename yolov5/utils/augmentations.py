@@ -68,14 +68,15 @@ class Albumentations:
             #     A.RandomGamma(p=0.0),
             #     A.ImageCompression(quality_lower=75, p=0.0)]  # transforms
             T = [
-                A.Blur(blur_limit=15, p=0.5),
+                A.Blur(blur_limit=15, p=0.1),
                 A.MedianBlur(p=0.1),
                 # A.ToGray(p=0.1),
                 A.CLAHE(clip_limit=4.0, tile_grid_size=(4, 4), p=0.3),
-                A.RandomBrightness((0.3,0.6),False,0.8),
-                A.RandomContrast((0.2,0.8),False,0.8),
-                A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.7),
-                A.RandomGamma(gamma_limit=(60, 120), p=0.6),
+                # A.RandomBrightness((0.3,0.6),False,0.8),
+                # A.RandomContrast((0.2,0.8),False,0.8),
+                A.RandomBrightnessContrast(p=0.2),
+                # A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.7),
+                # A.RandomGamma(gamma_limit=(60, 120), p=0.6),
                 A.ImageCompression(quality_lower=75, p=0.1)]  # transforms
             self.transform = A.Compose(T, bbox_params=A.BboxParams(format='yolo', label_fields=['class_labels']))
 

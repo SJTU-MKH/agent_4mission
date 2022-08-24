@@ -17,7 +17,7 @@ import numpy as np
 CLASSES = ['red', 'green', 'blue', 'yellow', 'pin', 'qing', 'black', 'white']
 SHAPE = ['circle', 'rhombus', 'fivestar', 'triangle', 'rectangle']
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 norm_mean = [0.485, 0.456, 0.406]
@@ -49,7 +49,7 @@ def get_model(m_path=None, vis_model=False):
     return resnet18
 
 model = get_model()
-model.load_state_dict(torch.load('/home3/HWGroup/liujy/agent_4mission_detection/resnet18/best_model.pth'))
+model.load_state_dict(torch.load('/home3/HWGroup/liujy/agent_4mission_detection/resnet18/runs/model2.0/best_model.pth'))
 model = model.to(device)
 model.eval()
 
@@ -74,6 +74,7 @@ def main(img_path, label_path):
         xyxy = [xywh[0]-xywh[2]/2, xywh[1]-xywh[3]/2, xywh[0]+xywh[2]/2, xywh[1]+xywh[3]/2]
         # img = Image.open(img_path).convert('RGB')
         img = IMG.crop(xyxy)
+        image = img.copy()
     
         img = val_transforms(img)
         img  = np.transpose(np.expand_dims(np.array(img, np.float32), 0), (0, 1, 3, 2))
@@ -92,10 +93,15 @@ def main(img_path, label_path):
         probability = np.max(preds)
 
         print(CLASSES[class_name],probability,SHAPE[int(c)])
+        try:
+            image.save(f'./result/{str(i)}-{CLASSES[class_name]}.jpg')
+        except SystemError:
+            pass
 
-
-img_path = '/home3/HWGroup/liujy/agent_4mission_detection/resnet18/images/bigshape.jpg'
-label_path = '/home3/HWGroup/liujy/agent_4mission_detection/resnet18/images/bigshape.txt'
+# img_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/WechatIMG1975.jpeg'
+# label_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/labels/WechatIMG1975.txt'
+img_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/complex1.jpeg'
+label_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/labels/complex1.txt'
 main(img_path, label_path)
 
 

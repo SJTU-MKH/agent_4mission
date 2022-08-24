@@ -13,7 +13,7 @@ from torch.autograd import Variable
 import copy
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -61,7 +61,7 @@ train_transforms = transforms.Compose([
     transforms.RandomHorizontalFlip(p=0.2),
     transforms.RandomVerticalFlip(p=0.2),
     transforms.RandomRotation(degrees=(-10,10)),
-    transforms.ColorJitter(brightness=0.1),
+    # transforms.ColorJitter(brightness=0.1),
     transforms.ToTensor(),
     transforms.Normalize(norm_mean, norm_std),
 ])
@@ -168,21 +168,26 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=50):
                 print('Best val species Acc: {:.2%}'.format(best_acc))
 
     model.load_state_dict(best_model_wts)
-    torch.save(model.state_dict(), 'best_model.pth')
+    torch.save(model.state_dict(), f'{savepath}best_model.pth')
     # torch.save(model.state_dict(), 'best_model.pth')
     print('Best val species Acc: {:.2%}'.format(best_acc))
     return model, Loss_list,Accuracy_list_species
 
+savepath = './runs/model2.0/'
+if not os.path.isdir(savepath):
+    os.mkdir(savepath)
 
 network = net.cuda()
 optimizer = torch.optim.SGD(network.parameters(), lr=0.01, momentum=0.9)
 criterion = nn.CrossEntropyLoss()
 exp_lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.1) # Decay LR by a factor of 0.1 every 1 epochs
-model, Loss_list, Accuracy_list_species = train_model(network, criterion, optimizer, exp_lr_scheduler, num_epochs=100)
+
+print("===========start training=============")
+model, Loss_list, Accuracy_list_species = train_model(network, criterion, optimizer, exp_lr_scheduler, num_epochs=200)
 
 
 import matplotlib.pyplot as plt
-x = range(0, 100)
+x = range(0, 200)
 y1 = Loss_list["val"]
 y2 = Loss_list["train"]
 plt.figure(figsize=(18,14))
@@ -192,7 +197,7 @@ plt.plot(x, y2, color="b", linestyle="-", marker="o", linewidth=1, label="train"
 plt.legend()
 plt.title('train and val loss vs. epoches')
 plt.ylabel('loss')
-plt.savefig("train and val loss vs epoches.jpg")
+plt.savefig(f'{savepath}train and val loss vs epoches.jpg')
 
 plt.subplot(212)
 y5 = Accuracy_list_species["train"]
@@ -202,4 +207,4 @@ plt.plot(x, y6, color="b", linestyle="-", marker=".", linewidth=1, label="val")
 plt.legend()
 plt.title('train and val Species_acc vs. epoches')
 plt.ylabel('species_accuracy')
-plt.savefig("train and val Classes_acc vs epoches.jpg")
+plt.savefig(f'{savepath}train and val Classes_acc vs epoches.jpg')

@@ -17,6 +17,12 @@
 
 色块检测：模型权重 [yolov5/runs/train/realgraph-320/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/realgraph-320/weights)
 
+色块检测2.0（提升精度）:
+
+> 模型结果：yolov5/runs/train/yolov5s2
+
+> 训练数据：/home3/HWGroup/liujy/agent_4mission_detection/datasets/realgraph5.0
+
 ## inference demo
 
 代码：https://github.com/huihui500/agent_4mission/blob/liujy/yolov5/detect.py
@@ -39,4 +45,4 @@ python detect.py --weight '权重路径' --source '图片/图片文件夹/视频
 
 + 推理代码：https://github.com/huihui500/agent_4mission/blob/liujy/resnet18/inference.py
 + 测试样例：https://github.com/huihui500/agent_4mission/tree/liujy/resnet18/images
-+ 训练好的模型：https://github.com/huihui500/agent_4mission/blob/liujy/resnet18/best_model.pth
++ 训练好的模型：/home3/HWGroup/liujy/agent_4mission_detection/resnet18/runs/model2.0/best_model.pth
