@@ -19,6 +19,8 @@
 
 ## 2.色块形状检测及颜色识别：
 
+![train_batch1](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/train_batch0.jpg)
+
 ### 形状检测
 
 + 训练好的模型权重：[yolov5/runs/train/yolov5s2](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/yolov5s2)
