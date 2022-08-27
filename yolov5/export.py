@@ -22,6 +22,7 @@ Requirements:
 
 Usage:
     $ python path/to/export.py --weights yolov5s.pt --include torchscript onnx openvino engine coreml tflite ...
+    $ python export.py --weights best.pt --include torchscript --optimize
 
 Inference:
     $ python path/to/detect.py --weights yolov5s.pt                 # PyTorch
@@ -94,14 +95,18 @@ def export_torchscript(model, im, file, optimize, prefix=colorstr('TorchScript:'
     try:
         LOGGER.info(f'\n{prefix} starting export with torch {torch.__version__}...')
         f = file.with_suffix('.torchscript')
+        fl = file.with_suffix('.torchscript.ptl')
 
         ts = torch.jit.trace(model, im, strict=False)
         d = {"shape": im.shape, "stride": int(max(model.stride)), "names": model.names}
+        print(d)
         extra_files = {'config.txt': json.dumps(d)}  # torch._C.ExtraFilesMap()
         if optimize:  # https://pytorch.org/tutorials/recipes/mobile_interpreter.html
-            optimize_for_mobile(ts)._save_for_lite_interpreter(str(f), _extra_files=extra_files)
+            # optimize_for_mobile(ts)._save_for_lite_interpreter(str(f), _extra_files=extra_files)
+            optimize_for_mobile(ts)._save_for_lite_interpreter(str(fl), _extra_files=extra_files)
         else:
             ts.save(str(f), _extra_files=extra_files)
+            ts.save(str(fl), _extra_files=extra_files)
 
         LOGGER.info(f'{prefix} export success, saved as {f} ({file_size(f):.1f} MB)')
         return f
@@ -459,7 +464,7 @@ def run(
         inplace=False,  # set YOLOv5 Detect() inplace=True
         train=False,  # model.train() mode
         keras=False,  # use Keras
-        optimize=False,  # TorchScript: optimize for mobile
+        optimize=True,  # TorchScript: optimize for mobile
         int8=False,  # CoreML/TF INT8 quantization
         dynamic=False,  # ONNX/TF: dynamic axes
         simplify=False,  # ONNX: simplify model
@@ -497,7 +502,7 @@ def run(
     gs = int(max(model.stride))  # grid size (max stride)
     imgsz = [check_img_size(x, gs) for x in imgsz]  # verify img_size are gs-multiples
     im = torch.zeros(batch_size, 3, *imgsz).to(device)  # image size(1,3,320,192) BCHW iDetection
-
+    print(im.shape)
     # Update model
     if half and not coreml and not xml:
         im, model = im.half(), model.half()  # to FP16
@@ -568,7 +573,7 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='dataset.yaml path')
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'yolov5s.pt', help='model.pt path(s)')
-    parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[640, 640], help='image (h, w)')
+    parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[320, 320], help='image (h, w)')
     parser.add_argument('--batch-size', type=int, default=1, help='batch size')
     parser.add_argument('--device', default='cpu', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--half', action='store_true', help='FP16 half-precision export')

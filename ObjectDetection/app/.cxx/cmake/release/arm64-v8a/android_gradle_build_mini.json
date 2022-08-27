@@ -1,0 +1,64 @@
+{
+  "buildFiles": [
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "objectdetection-Release-arm64-v8a": {
+      "artifactName": "objectdetection",
+      "buildCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\" objectdetection",
+      "abi": "arm64-v8a",
+      "output": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/release/obj/arm64-v8a/libobjectdetection.so",
+      "runtimeFiles": [
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm64/usr/lib/liblog.so",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_shape.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_superres.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videostab.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a",
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
+      ]
+    }
+  }
+}

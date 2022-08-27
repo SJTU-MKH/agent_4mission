@@ -1,0 +1,7 @@
+Executable : /home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi
+objectdetection
+jvmArgs : 
+

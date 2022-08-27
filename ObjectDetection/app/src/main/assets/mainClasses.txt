@@ -1,0 +1,15 @@
+straight
+left
+right
+turn_round
+no_straight
+no_entry
+graph
+plate_blue
+plane_green
+qrcode
+circle
+rhomb
+fives
+tri
+rect

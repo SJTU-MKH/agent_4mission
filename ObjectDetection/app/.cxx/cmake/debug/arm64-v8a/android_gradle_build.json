@@ -1,0 +1,367 @@
+{
+  "stringTable": {
+    "0": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android --gcc-toolchain=/home/khm/Android/Sdk/ndk/16.1.4479499/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/khm/Android/Sdk/ndk/16.1.4479499/sysroot -Dobjectdetection_EXPORTS -I../../../../include -I../../../../src/main/cpp -I../../../../src/main/cpp/include/opencv2 -I../../../../src/main/cpp/qr -I../../../../src/main/cpp/qr/detector -I../../../../src/main/cpp/qr/scale -I../../../../src/main/cpp/qr/zxing -I../../../../src/main/cpp/qr/zxing/common -I../../../../src/main/cpp/qr/zxing/qrcode -I../../../../src/main/cpp/qr/zxing/common/binarizer -I../../../../src/main/cpp/qr/zxing/common/reedsolomon -I../../../../src/main/cpp/qr/zxing/qrcode/decoder -I../../../../src/main/cpp/qr/zxing/qrcode/detector -isystem ../../../../src/main/cpp/opencv/sdk/native/jni/include -isystem ../../../../src/main/cpp/opencv/sdk/native/jni/include/opencv -isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "objectdetection-Debug-arm64-v8a": {
+      "buildCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/arm64-v8a\" objectdetection",
+      "buildType": "debug",
+      "toolchain": "846518809",
+      "abi": "arm64-v8a",
+      "artifactName": "objectdetection",
+      "files": [
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/binarizermgr.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/decodermgr.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/imgsource.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/wechat_qrcode.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/detector/align.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/detector/ssd_detector.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/scale/super_scale.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/binarybitmap.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/errorhandler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/luminance_source.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/reader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/result.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/resultpoint.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/bitarray.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/bitmatrix.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/bitsource.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/bytematrix.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/characterseteci.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/decoder_result.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/detector_result.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/greyscale_luminance_source.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/greyscale_rotated_luminance_source.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/grid_sampler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/imagecut.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/kmeans.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/perspective_transform.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/str.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/stringutils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/unicomblock.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/error_correction_level.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/format_information.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/qrcode_reader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/version.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer/adaptive_threshold_mean_binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer/fast_window_binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer/global_histogram_binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer/hybrid_binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer/simple_adaptive_binarizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/reedsolomon/genericgf.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/reedsolomon/genericgfpoly.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/reedsolomon/reed_solomon_decoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/bitmatrixparser.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/datablock.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/datamask.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/decoded_bit_stream_parser.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/decoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder/mode.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern_finder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/detector.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/finder_pattern.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_finder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_info.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector/pattern_result.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/bitmap_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/objectdetection.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/debug/obj/arm64-v8a/libobjectdetection.so",
+      "runtimeFiles": [
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm64/usr/lib/liblog.so",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_shape.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_superres.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videostab.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a",
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "846518809": {
+      "cppCompilerExecutable": "/home/khm/Android/Sdk/ndk/16.1.4479499/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

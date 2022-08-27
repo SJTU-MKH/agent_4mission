@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/objectdetection.dir/src/main/cpp/objectdetection.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libobjectdetection.so

@@ -1,0 +1,256 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app",
+  "buildDirectory": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/prefab/armeabi/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi",
+    "-DANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi",
+    "-DCMAKE_ANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/debug/obj/armeabi",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_STL\u003dgnustl_static"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /home/khm/Android/Sdk/ndk/16.1.4479499\nCall Stack (most recent call first):\n  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:8 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/khm/Android/Sdk/ndk/16.1.4479499
+Call Stack (most recent call first):
+  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+CMAKE SERVER: CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/khm/Android/Sdk/ndk/16.1.4479499
+Call Stack (most recent call first):
+  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:8 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+CMAKE SERVER: CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  .cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"OpenCV library status:","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: OpenCV library status:
+CMAKE SERVER: OpenCV library status:
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni
+CMAKE SERVER:     config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    version: 3.4.1","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     version: 3.4.1
+CMAKE SERVER:     version: 3.4.1
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab
+CMAKE SERVER:     libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv
+CMAKE SERVER:     include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    PKG_CONFIG_PATH: ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     PKG_CONFIG_PATH: 
+CMAKE SERVER:     PKG_CONFIG_PATH: 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"    ANDROID_NDK_ABI_NAME: armeabi","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER:     ANDROID_NDK_ABI_NAME: armeabi
+CMAKE SERVER:     ANDROID_NDK_ABI_NAME: armeabi
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake","src/main/cpp/opencv/sdk/native/jni/OpenCVConfig-version.cmake","src/main/cpp/opencv/sdk/native/jni/OpenCVConfig.cmake","src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVConfig.cmake","src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVModules.cmake","src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVModules-release.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/armeabi/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi","name":"objectdetection","sourceDirectory":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app","targets":[{"artifacts":["/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/debug/obj/armeabi/libobjectdetection.so"],"buildDirectory":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi","fileGroups":[{"compileFlags":"-isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["objectdetection_EXPORTS"],"includePath":[{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/include"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/include/opencv2"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/detector"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/scale"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/reedsolomon"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder"},{"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector"},{"isSystem":true,"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include"},{"isSystem":true,"path":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv"},{"isSystem":true,"path":"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include"},{"isSystem":true,"path":"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/qr/binarizermgr.cpp","src/main/cpp/qr/decodermgr.cpp","src/main/cpp/qr/imgsource.cpp","src/main/cpp/qr/wechat_qrcode.cpp","src/main/cpp/qr/detector/align.cpp","src/main/cpp/qr/detector/ssd_detector.cpp","src/main/cpp/qr/scale/super_scale.cpp","src/main/cpp/qr/zxing/binarizer.cpp","src/main/cpp/qr/zxing/binarybitmap.cpp","src/main/cpp/qr/zxing/errorhandler.cpp","src/main/cpp/qr/zxing/luminance_source.cpp","src/main/cpp/qr/zxing/reader.cpp","src/main/cpp/qr/zxing/result.cpp","src/main/cpp/qr/zxing/resultpoint.cpp","src/main/cpp/qr/zxing/common/bitarray.cpp","src/main/cpp/qr/zxing/common/bitmatrix.cpp","src/main/cpp/qr/zxing/common/bitsource.cpp","src/main/cpp/qr/zxing/common/bytematrix.cpp","src/main/cpp/qr/zxing/common/characterseteci.cpp","src/main/cpp/qr/zxing/common/decoder_result.cpp","src/main/cpp/qr/zxing/common/detector_result.cpp","src/main/cpp/qr/zxing/common/greyscale_luminance_source.cpp","src/main/cpp/qr/zxing/common/greyscale_rotated_luminance_source.cpp","src/main/cpp/qr/zxing/common/grid_sampler.cpp","src/main/cpp/qr/zxing/common/imagecut.cpp","src/main/cpp/qr/zxing/common/kmeans.cpp","src/main/cpp/qr/zxing/common/perspective_transform.cpp","src/main/cpp/qr/zxing/common/str.cpp","src/main/cpp/qr/zxing/common/stringutils.cpp","src/main/cpp/qr/zxing/common/unicomblock.cpp","src/main/cpp/qr/zxing/qrcode/error_correction_level.cpp","src/main/cpp/qr/zxing/qrcode/format_information.cpp","src/main/cpp/qr/zxing/qrcode/qrcode_reader.cpp","src/main/cpp/qr/zxing/qrcode/version.cpp","src/main/cpp/qr/zxing/common/binarizer/adaptive_threshold_mean_binarizer.cpp","src/main/cpp/qr/zxing/common/binarizer/fast_window_binarizer.cpp","src/main/cpp/qr/zxing/common/binarizer/global_histogram_binarizer.cpp","src/main/cpp/qr/zxing/common/binarizer/hybrid_binarizer.cpp","src/main/cpp/qr/zxing/common/binarizer/simple_adaptive_binarizer.cpp","src/main/cpp/qr/zxing/common/reedsolomon/genericgf.cpp","src/main/cpp/qr/zxing/common/reedsolomon/genericgfpoly.cpp","src/main/cpp/qr/zxing/common/reedsolomon/reed_solomon_decoder.cpp","src/main/cpp/qr/zxing/qrcode/decoder/bitmatrixparser.cpp","src/main/cpp/qr/zxing/qrcode/decoder/datablock.cpp","src/main/cpp/qr/zxing/qrcode/decoder/datamask.cpp","src/main/cpp/qr/zxing/qrcode/decoder/decoded_bit_stream_parser.cpp","src/main/cpp/qr/zxing/qrcode/decoder/decoder.cpp","src/main/cpp/qr/zxing/qrcode/decoder/mode.cpp","src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern.cpp","src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern_finder.cpp","src/main/cpp/qr/zxing/qrcode/detector/detector.cpp","src/main/cpp/qr/zxing/qrcode/detector/finder_pattern.cpp","src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_finder.cpp","src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_info.cpp","src/main/cpp/qr/zxing/qrcode/detector/pattern_result.cpp","src/main/cpp/bitmap_utils.cpp","src/main/cpp/objectdetection.cpp"]}],"fullName":"libobjectdetection.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now  -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a","linkLibraries":"-ljnigraphics /home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm/usr/lib/liblog.so ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_highgui.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_features2d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_shape.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgcodecs.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_ml.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videoio.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_dnn.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_flann.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_objdetect.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_core.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_calib3d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_video.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_superres.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_photo.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgproc.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_stitching.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videostab.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibprotobuf.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_calib3d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_features2d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_highgui.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videoio.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgcodecs.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibjpeg.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibwebp.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibpng.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibtiff.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibjasper.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libIlmImf.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_flann.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_video.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_photo.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgproc.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_core.a -lz ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libcpufeatures.a -llog ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libtbb.a -lc -ldl -lm ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libtegra_hal.a -latomic -lm \"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a\"","linkerLanguage":"CXX","name":"objectdetection","sourceDirectory":"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app","sysroot":"/home/khm/Android/Sdk/ndk/16.1.4479499/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

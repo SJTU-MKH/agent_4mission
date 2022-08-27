@@ -1,0 +1,296 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/khm/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\u0027 but regenerating project",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_STL\u003dgnustl_static\n-B/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app\",\n  \"buildDirectory\": \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-std\\u003dc++11 -frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/release/obj/arm64-v8a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DANDROID_STL\\u003dgnustl_static\"\n  ]\n}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):\\n  Using custom NDK path (ANDROID_NDK is set):\\n  /home/khm/Android/Sdk/ndk/16.1.4479499\\nCall Stack (most recent call first):\\n  .cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  CMakeLists.txt:8 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "WARN",
+    "message": "CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /home/khm/Android/Sdk/ndk/16.1.4479499\nCall Stack (most recent call first):\n  .cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:8 (project)\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"OpenCV library status:\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "OpenCV library status:",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    version: 3.4.1\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    version: 3.4.1",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    PKG_CONFIG_PATH: \",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    PKG_CONFIG_PATH: ",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"    ANDROID_NDK_ABI_NAME: arm64-v8a\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "    ANDROID_NDK_ABI_NAME: arm64-v8a",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake\",\"src/main/cpp/opencv/sdk/native/jni/OpenCVConfig-version.cmake\",\"src/main/cpp/opencv/sdk/native/jni/OpenCVConfig.cmake\",\"src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake\",\"src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake\",\"src/main/cpp/opencv/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/home/khm/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app\",\"type\":\"reply\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\",\"name\":\"objectdetection\",\"sourceDirectory\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app\",\"targets\":[{\"artifacts\":[\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/release/obj/arm64-v8a/libobjectdetection.so\"],\"buildDirectory\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-isystem /home/khm/Android/Sdk/ndk/16.1.4479499/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__\u003d21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security  -std\u003dc++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC  \",\"defines\":[\"objectdetection_EXPORTS\"],\"includePath\":[{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/include\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/include/opencv2\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/detector\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/scale\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/binarizer\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/common/reedsolomon\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/decoder\"},{\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/qr/zxing/qrcode/detector\"},{\"isSystem\":true,\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include\"},{\"isSystem\":true,\"path\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv\"},{\"isSystem\":true,\"path\":\"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include\"},{\"isSystem\":true,\"path\":\"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include\"},{\"isSystem\":true,\"path\":\"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/qr/binarizermgr.cpp\",\"src/main/cpp/qr/decodermgr.cpp\",\"src/main/cpp/qr/imgsource.cpp\",\"src/main/cpp/qr/wechat_qrcode.cpp\",\"src/main/cpp/qr/detector/align.cpp\",\"src/main/cpp/qr/detector/ssd_detector.cpp\",\"src/main/cpp/qr/scale/super_scale.cpp\",\"src/main/cpp/qr/zxing/binarizer.cpp\",\"src/main/cpp/qr/zxing/binarybitmap.cpp\",\"src/main/cpp/qr/zxing/errorhandler.cpp\",\"src/main/cpp/qr/zxing/luminance_source.cpp\",\"src/main/cpp/qr/zxing/reader.cpp\",\"src/main/cpp/qr/zxing/result.cpp\",\"src/main/cpp/qr/zxing/resultpoint.cpp\",\"src/main/cpp/qr/zxing/common/bitarray.cpp\",\"src/main/cpp/qr/zxing/common/bitmatrix.cpp\",\"src/main/cpp/qr/zxing/common/bitsource.cpp\",\"src/main/cpp/qr/zxing/common/bytematrix.cpp\",\"src/main/cpp/qr/zxing/common/characterseteci.cpp\",\"src/main/cpp/qr/zxing/common/decoder_result.cpp\",\"src/main/cpp/qr/zxing/common/detector_result.cpp\",\"src/main/cpp/qr/zxing/common/greyscale_luminance_source.cpp\",\"src/main/cpp/qr/zxing/common/greyscale_rotated_luminance_source.cpp\",\"src/main/cpp/qr/zxing/common/grid_sampler.cpp\",\"src/main/cpp/qr/zxing/common/imagecut.cpp\",\"src/main/cpp/qr/zxing/common/kmeans.cpp\",\"src/main/cpp/qr/zxing/common/perspective_transform.cpp\",\"src/main/cpp/qr/zxing/common/str.cpp\",\"src/main/cpp/qr/zxing/common/stringutils.cpp\",\"src/main/cpp/qr/zxing/common/unicomblock.cpp\",\"src/main/cpp/qr/zxing/qrcode/error_correction_level.cpp\",\"src/main/cpp/qr/zxing/qrcode/format_information.cpp\",\"src/main/cpp/qr/zxing/qrcode/qrcode_reader.cpp\",\"src/main/cpp/qr/zxing/qrcode/version.cpp\",\"src/main/cpp/qr/zxing/common/binarizer/adaptive_threshold_mean_binarizer.cpp\",\"src/main/cpp/qr/zxing/common/binarizer/fast_window_binarizer.cpp\",\"src/main/cpp/qr/zxing/common/binarizer/global_histogram_binarizer.cpp\",\"src/main/cpp/qr/zxing/common/binarizer/hybrid_binarizer.cpp\",\"src/main/cpp/qr/zxing/common/binarizer/simple_adaptive_binarizer.cpp\",\"src/main/cpp/qr/zxing/common/reedsolomon/genericgf.cpp\",\"src/main/cpp/qr/zxing/common/reedsolomon/genericgfpoly.cpp\",\"src/main/cpp/qr/zxing/common/reedsolomon/reed_solomon_decoder.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/bitmatrixparser.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/datablock.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/datamask.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/decoded_bit_stream_parser.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/decoder.cpp\",\"src/main/cpp/qr/zxing/qrcode/decoder/mode.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/alignment_pattern_finder.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/detector.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/finder_pattern.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_finder.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/finder_pattern_info.cpp\",\"src/main/cpp/qr/zxing/qrcode/detector/pattern_result.cpp\",\"src/main/cpp/bitmap_utils.cpp\",\"src/main/cpp/objectdetection.cpp\"]}],\"fullName\":\"libobjectdetection.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now  -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a\",\"linkLibraries\":\"-ljnigraphics /home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm64/usr/lib/liblog.so ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_shape.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_superres.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videostab.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/liblibjasper.a ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_video.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a ../../../../src/main/cpp/opencv/sdk/native/staticlibs/arm64-v8a/libopencv_core.a -lz ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a -llog ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a -lc -ldl -lm ../../../../src/main/cpp/opencv/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a -latomic -lm \\\"/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_static.a\\\"\",\"linkerLanguage\":\"CXX\",\"name\":\"objectdetection\",\"sourceDirectory\":\"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app\",\"sysroot\":\"/home/khm/Android/Sdk/ndk/16.1.4479499/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a/build_output.txt",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt",
+    "tag": "release|arm64-v8a"
+  }
+]

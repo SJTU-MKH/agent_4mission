@@ -1,0 +1,16 @@
+CMake Warning at /home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/khm/Android/Sdk/ndk/16.1.4479499
+Call Stack (most recent call first):
+  .cxx/cmake/release/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:8 (project)
+
+
+OpenCV library status:
+    config: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni
+    version: 3.4.1
+    libraries: opencv_highgui;opencv_features2d;opencv_shape;opencv_imgcodecs;opencv_ml;opencv_videoio;opencv_dnn;opencv_flann;opencv_objdetect;opencv_core;opencv_calib3d;opencv_video;opencv_superres;opencv_photo;opencv_imgproc;opencv_stitching;opencv_videostab
+    include path: /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include;/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/include/opencv
+    PKG_CONFIG_PATH: 
+    ANDROID_NDK_ABI_NAME: arm64-v8a
+Configuring done

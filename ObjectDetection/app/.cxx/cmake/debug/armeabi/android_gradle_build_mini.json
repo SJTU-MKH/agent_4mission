@@ -1,0 +1,64 @@
+{
+  "buildFiles": [
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVModules-release.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVConfig.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/abi-armeabi/OpenCVModules.cmake",
+    "/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi\" clean"
+  ],
+  "buildTargetsCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "objectdetection-Debug-armeabi": {
+      "artifactName": "objectdetection",
+      "buildCommand": "/home/khm/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/armeabi\" objectdetection",
+      "abi": "armeabi",
+      "output": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/debug/obj/armeabi/libobjectdetection.so",
+      "runtimeFiles": [
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/platforms/android-21/arch-arm/usr/lib/liblog.so",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_shape.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_ml.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_dnn.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_objdetect.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_superres.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_stitching.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videostab.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibprotobuf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_calib3d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_features2d.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_highgui.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_videoio.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgcodecs.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibjpeg.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibwebp.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibpng.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibtiff.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/liblibjasper.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libIlmImf.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_flann.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_video.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_photo.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_imgproc.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/staticlibs/armeabi/libopencv_core.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libcpufeatures.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libtbb.a",
+        "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/opencv/sdk/native/3rdparty/libs/armeabi/libtegra_hal.a",
+        "/home/khm/Android/Sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a"
+      ]
+    }
+  }
+}

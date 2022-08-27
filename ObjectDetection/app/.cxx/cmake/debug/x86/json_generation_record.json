@@ -1,0 +1,74 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/khm/Android/Sdk/cmake/3.18.1\u0027 had version \u00273.18.1\u0027",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.18.1\u0027.",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86/android_gradle_build.json due to:",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86/build_command.txt, will remove stale json folder",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86\u0027",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86\u0027",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/khm/Android/Sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp\n-DCMAKE_FIND_ROOT_PATH\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/prefab/x86/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/khm/Android/Sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/home/khm/Android/Sdk/ndk/16.1.4479499\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/build/intermediates/cmake/debug/obj/x86\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d21\n-B/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/.cxx/cmake/debug/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: java.io.IOException: Cannot run program \"/home/khm/Android/Sdk/cmake/3.18.1/bin/cmake\": error\u003d2, No such file or directory",
+    "file": "/home/khm/project/agent_4mission/yolo2android/android-demo-app/ObjectDetection/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  }
+]

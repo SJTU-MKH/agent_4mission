@@ -1,0 +1,9 @@
+{
+  "ndkVersionFromDsl": "16.1.4479499",
+  "sdkFolder": "/home/khm/Android/Sdk",
+  "sideBySideNdkFolderNames": [
+    "21.0.6113669",
+    "21.4.7075529",
+    "16.1.4479499"
+  ]
+}

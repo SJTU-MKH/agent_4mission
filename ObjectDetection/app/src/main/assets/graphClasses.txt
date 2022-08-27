@@ -1,0 +1,5 @@
+circle
+rhombus
+fivestar
+triangle
+rectangle
