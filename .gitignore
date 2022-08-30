@@ -1,14 +1,5 @@
-datasets/
+
 *.pyc
 *.log
 graph*/
-all/
-yolov5/runs/detect/
-realgraph2.0/
-/resnet18/classification-pytorch
-exp*/
-datasets_use/
-result/
-datasets_use/
-datasets_use_old/
-yolov5l/
+datasets/

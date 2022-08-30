@@ -15,7 +15,8 @@
 + 标签：0直行、1左转、2右转、3掉头、4禁止直行、5禁止通行、6图+ 形、7蓝色车牌、8新能源车牌、9二维码
 + 算法：yolov5s
 + 输入图片的尺寸：320
-+ 训练好的模型： [yolov5/runs/train/main_mission/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/main_mission/weights)
++ 训练数据：./datasets/mainmission
++ 训练好的模型： [yolov5/runs/train/mainmission3.0/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/mainmission3.0/weights)
 
 ## 2.色块形状检测及颜色识别：
 
