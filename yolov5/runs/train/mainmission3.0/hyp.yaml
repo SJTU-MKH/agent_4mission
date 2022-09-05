@@ -22,7 +22,7 @@ scale: 0.5
 shear: 0.0
 perspective: 0.0
 flipud: 0.0
-fliplr: 0.5
-mosaic: 1.0
+fliplr: 0.0
+mosaic: 0.7
 mixup: 0.0
 copy_paste: 0.0

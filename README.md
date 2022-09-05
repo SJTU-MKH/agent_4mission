@@ -55,3 +55,9 @@
 python detect.py --weight '权重路径' --source '图片/图片文件夹/视频路径' --save-txt --save-conf --img-size 320
 ```
 
+
+## utils
+
+1. bin2img and img2bin: ./bin2img
+
+
