@@ -1,43 +1,58 @@
 # 基于yolov5的显示器内容检测
 
-+ 主任务：十类目标检测
+算法流程图：
 
-+ 子任务：色块形状检测+颜色识别
+![2L4MrT](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/2L4MrT.png)
 
 ## 1. 显示器内容检测
 
 ![9yCUOB](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/9yCUOB.jpg)
 
-![train_batch1](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/train_batch1.jpg)
-
-### 算法详情
+### 基本设置
 
 + 标签：0直行、1左转、2右转、3掉头、4禁止直行、5禁止通行、6图+ 形、7蓝色车牌、8新能源车牌、9二维码
-+ 算法：yolov5s
+
++ 算法：yolov5m
 + 输入图片的尺寸：320
 + 训练数据：./datasets/mainmission
-+ 训练好的模型： [yolov5/runs/train/mainmission3.0/weights](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/mainmission3.0/weights)
+
+### 使用方法 
+
+**训练**
+
+不加载预训练参数训练：
+```
+python train.py --batch-size 64 --epochs 300 --data data/mainmission.yaml --name 'mainmission' --cfg yolov5m.yaml --weights ''
+```
+
+其他参数：
++ `--img 320`：resize尺寸  默认640
++ `--hyp "/home3/HWGroup/liujy/agent_4mission_detection/yolov5/data/hyps/hyp.scratch-low-finetune.yaml"` ： Finetune 学习率调整
+
+**测试**
+
+训练好的模型位置：`yolov5/runs/train/mainmission4.0_yolov5m/weights/best.pt`进行推理。
+
+查看命令行参数
+
+`python detect.py  -h`
+
+推理保存带框图和label的txt
+`python detect.py --weight ./runs/train/mainmission4.0_yolov5m/weights/best.pt --source ./datasets/test_main/ --save-txt --save-conf --img-size 320`
+
+### 算法优化：
+
+优化策略参考：[https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)
 
 ## 2.色块形状检测及颜色识别：
 
 ![train_batch1](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/train_batch0.jpg)
 
-### 形状检测
+色块形状检测：
 
-+ 训练好的模型权重：[yolov5/runs/train/yolov5s2](https://github.com/huihui500/agent_4mission/tree/liujy/yolov5/runs/train/yolov5s2)
+模型位置：/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/train/graph_yolov5l/
 
-+ 训练数据：/home3/HWGroup/liujy/agent_4mission_detection/datasets/realgraph5.0
-
-### 颜色识别
-
-#### a.传统方法
-
-
-+ 根据检测框中心点像素HSV范围确定颜色，需要根据实际使用情况调整颜色阈值范围，代码：[submission/color_recognize.py](https://github.com/huihui500/agent_4mission/blob/liujy/submission/color_recognize.py)
-
-+ 测试代码：[查看图像形状检测框坐标](https://github.com/huihui500/agent_4mission/blob/liujy/yolov5/location.ipynb)
-
-#### b.深度学习方法
+**色块颜色识别：**
 
 使用resnet18实现颜色分类：0-red,1-green,2-blue,3-yellow,4-pin,5-qing,6-black,7-white.
 
@@ -45,19 +60,8 @@
 + 测试样例：[resnet18/images](https://github.com/huihui500/agent_4mission/tree/liujy/resnet18/images)
 + 训练好的模型：[resnet18/runs/model2.0/best_model.pth](https://github.com/huihui500/agent_4mission/blob/liujy/resnet18/runs/model2.0/best_model.pth)
 
-## 3.检测模型推理代码（1/2）
+## 3.数据制作
 
-代码：https://github.com/huihui500/agent_4mission/blob/liujy/yolov5/detect.py
-
-使用方法:
-
-```bash
-python detect.py --weight '权重路径' --source '图片/图片文件夹/视频路径' --save-txt --save-conf --img-size 320
-```
-
-
-## utils
-
-1. bin2img and img2bin: ./bin2img
+参考：[roboflow数据标注工具教学](https://www.bilibili.com/video/BV1LD4y1672d/)
 
 

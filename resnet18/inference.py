@@ -49,7 +49,7 @@ def get_model(m_path=None, vis_model=False):
     return resnet18
 
 model = get_model()
-model.load_state_dict(torch.load('/home3/HWGroup/liujy/agent_4mission_detection/resnet18/runs/model2.0/best_model.pth'))
+model.load_state_dict(torch.load('./runs/model2.0/best_model.pth'))
 model = model.to(device)
 model.eval()
 
@@ -100,8 +100,8 @@ def main(img_path, label_path):
 
 # img_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/WechatIMG1975.jpeg'
 # label_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/labels/WechatIMG1975.txt'
-img_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/complex1.jpeg'
-label_path = '/home3/HWGroup/liujy/agent_4mission_detection/yolov5/runs/detect/yolov5s2/labels/complex1.txt'
+img_path = "./images/bigshape.jpg"
+label_path = "./images/bigshape.txt"
 main(img_path, label_path)
 
 

@@ -3,3 +3,7 @@
 *.log
 graph*/
 datasets/
+main_mission/
+main_mission2.0/
+mainmission3.0/
+detect/
