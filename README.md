@@ -48,7 +48,7 @@ python detect.py --weight ./runs/train/mainmission4.0_yolov5m/weights/best.pt --
 
 ## 2.色块形状检测及颜色识别：
 
-![lorU2b](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/lorU2b.png)
+![yjnT1B](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/yjnT1B.png)
 
 + 标签：0-圆形、1-菱形、2-五角星、3-三角形、4-矩形
 + 算法：yolov5l
