@@ -14,7 +14,7 @@
 
 ## 1. 显示器内容检测
 
-![9yCUOB](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/9yCUOB.jpg)
+![XnZPH3](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/XnZPH3.png)
 
 ### 基本设置
 
@@ -48,9 +48,10 @@ python detect.py --weight ./runs/train/mainmission4.0_yolov5m/weights/best.pt --
 
 ## 2.色块形状检测及颜色识别：
 
-![train_batch1](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/train_batch0.jpg)
+![lorU2b](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/lorU2b.png)
 
 + 标签：0-圆形、1-菱形、2-五角星、3-三角形、4-矩形
++ 算法：yolov5l
 + 训练数据：./datasets/realgraph6.0/
 
 色块形状检测：
